@@ -1,6 +1,7 @@
 import React from 'react';
 // import './App.css';
-import Headshot from './Headshot.jpg';
+import Headshot from '../Headshot.jpg';
+import { Link } from 'react-router-dom';
 
 // class Navigation extends React.Component {
 //   constructor() {
@@ -20,7 +21,9 @@ function PersonalWebsite() {
       <header class="header">
         <div class="outer-container">
           <div class="nav-container">
-            Nav Links
+            <Link to="/">Home</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/contact">Contact</Link>
           </div>
         </div>
       </header>
@@ -36,7 +39,11 @@ function PersonalWebsite() {
           <div>About me</div>
         </section>
         <section class="my-skills">
-          <div>My Skills: Javascript, React, Node</div>
+          <div>My Skills</div>
+          <div>Frontend: Javascript, React, React Native, Redux, Webpack,HTML5, JQuery</div>
+          <div>Backend: Javascript, Node.js, Express.js, Docker, SQL, JSON</div>
+          <div>Design: Data Structures, algorithms/complexity, object-oriented programming, responsive web design, MVC</div>
+          <div>Other: Git, Agile/Scrum, UNIX Shell</div>
         </section>
       </div>
 
