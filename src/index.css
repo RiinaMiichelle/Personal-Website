@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.personal-website-container {
+  background-color: #ECDFE6;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #A2C1C3;
+  color: white;
+  font-size: 20px;
+}
+
+.outer-container {
+
+}
+
+.nav-container {
+
+}
+
+.content {
+  font-size: 30px;
+  font-family: 'EB Garamond', serif;
+  background: #DFEBEC;
+  margin: auto;
+  text-align: center;
+}
+
+.title-section {
+
+}
+
+.title {
+  margin: auto;
+  display: inline-block;
+}
+
+.image-section {
+
+}
+
+.about-me {
+
+}
+
+.my-skills {
+  
+}
+
+
+.image {
+  display: block;
+  width: 60%;
+  height: 400px;
+  margin: auto;
+} 
+
+.footer {
+  text-align: center;
+}
+
+.footer div {
+  display: inline-block;
 }
