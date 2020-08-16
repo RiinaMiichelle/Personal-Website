@@ -33,17 +33,24 @@ function PersonalWebsite() {
           <div className="title">Hello, my name is Sarina. I am a Front End Developer living in Austin, TX.</div>
         </section>
         <section class="image-section">
-          <img class="image" src={Headshot} />
+          <img class="headshot" alt="my-headshot" src={Headshot} />
         </section>
         <section class="about-me">
           <div>About me</div>
         </section>
+        <img alt="my-aca-certificate" class="aca-certificate" src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/21669789"></img>
+        {/* <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/21669789"></img> */}
         <section class="my-skills">
           <div>My Skills</div>
           <div>Frontend: Javascript, React, React Native, Redux, Webpack,HTML5, JQuery</div>
           <div>Backend: Javascript, Node.js, Express.js, Docker, SQL, JSON</div>
           <div>Design: Data Structures, algorithms/complexity, object-oriented programming, responsive web design, MVC</div>
           <div>Other: Git, Agile/Scrum, UNIX Shell</div>
+        </section>
+        <section>
+          <div>Contact me</div>
+          <i class="fab fa-linkedin fa-3x"></i>
+          <i class="fab fa-github fa-3x"></i>
         </section>
       </div>
 
