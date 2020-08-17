@@ -10,9 +10,9 @@ function Projects() {
       </section>
       <section class="happy-paws">
         <div class="happy-paws-title">Happy Paws</div>
-        <div class="project-about">I recently graduated from Austin Coding Academy. 
+        <div class="project-about">I recently graduated from Austin Coding Academy.
           This is my Graduation Presentation explaining my Capstone Application  
-          Happy Paws.
+          Happy Paws. It is an application that connects people with dogs in local shelters they can take out for an afternoon. 
         </div>
         <div class="project-container">
           <img class="project-image" alt="project-image" src={ProjectImage} />

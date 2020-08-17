@@ -19,13 +19,12 @@ function PersonalWebsite() {
   return (
     <div class="personal-website-container">
       <header class="header">
-        <div class="outer-container">
+        {/* <div class="outer-container"> */}
           <div class="nav-container">
-            <Link to="/">Home</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/contact">Contact</Link>
+            <Link class="nav-content" to="/">Home</Link>
+            <Link class="nav-content" to="/projects">Projects</Link>
           </div>
-        </div>
+        {/* </div> */}
       </header>
 
       <div class="content">
@@ -49,8 +48,8 @@ function PersonalWebsite() {
         </section>
         <section>
           <div>Contact me</div>
-          <i class="fab fa-linkedin fa-3x"></i>
-          <i class="fab fa-github fa-3x"></i>
+          <a href="https://www.linkedin.com/in/sarinamcolosimo/"><i class="fab fa-linkedin fa-3x contact-icon"></i></a>
+          <a href="https://github.com/RiinaMiichelle"><i class="fab fa-github fa-3x contact-icon"></i></a>
         </section>
       </div>
 
