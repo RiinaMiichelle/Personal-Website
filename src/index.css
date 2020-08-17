@@ -1,12 +1,18 @@
 .personal-website-container {
-  background-color: #ECDFE6;
+  background-color: white;
+}
+
+body {
+  display: block;
+  border: 8px solid #C3A2BC;
+  margin: 0;
 }
 
 .header {
   height: 70px;
   padding: 10px;
   text-align: center;
-  background: #A2C1C3;
+  background: #ECDFE9;
   color: white;
   display: flex;
   flex-direction: row;
@@ -23,12 +29,15 @@
 .nav-content {
   margin: 5px;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px pink;
 }
 
 .content {
   font-size: 30px;
-  font-family: 'EB Garamond', serif;
-  background: #DFEBEC;
+  font-family: 'Montserrat', sans-serif;
+  background: white;
   margin: auto;
   text-align: center;
 }
@@ -42,6 +51,7 @@
   font-size: 35px;
   padding: 70px;
   display: inline-block;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .image-section {
@@ -76,8 +86,10 @@
 .footer {
   height: 40px;
   font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'Permanent Marker', cursive;
   text-align: center;
-  background: #A2C1C3;
+  background: #ECDFE9;
   padding: 10px;
   text-align: center; 
   display: flex;
@@ -93,13 +105,14 @@
 /* ProjectsPage */
 
 .projects-container {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .projects-title {
   margin: 50px;
   font-size: 35px;
   text-align: center;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .happy-paws {
