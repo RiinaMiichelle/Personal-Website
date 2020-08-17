@@ -27,19 +27,18 @@ body {
 }
 
 .nav-content {
-  margin: 5px;
+  margin: 10px;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
   text-shadow: 1px 1px 1px pink;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }
 
 .content {
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
   background: white;
-  margin: auto;
-  text-align: center;
 }
 
 .title-section {
@@ -58,18 +57,60 @@ body {
 
 }
 
-.about-me {
+.about-me-title {
+  padding: 50px;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
 
+.about-me-text {
+  margin: auto;
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.about-me {
+  text-align: center;
 }
 
 .aca-certificate {
-  Height: 200px;
-  width: 260px;
+  Height: 300px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-skills-title {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  padding: 50px;
 }
 
 .my-skills {
-
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: start;
+  width: 60%;
+  padding: 30px;
+  align-content: center;
+  margin: auto;
+  border: 1px solid;
+  width: 60%;
+  padding: 10px;
+  box-shadow: 5px 5px #D8C0D3;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }
+
+.my-skills div {
+  padding: 5px;
+  margin: 10px;
+}
+
 
 
 .headshot {
@@ -79,8 +120,21 @@ body {
   margin: auto;
 } 
 
-.contact-icon {
-  padding: 10px;
+.contact-me-title {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-icons a {
+  padding: 20px;
 }
 
 .footer {
@@ -96,6 +150,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  
 }
 
 .footer div {
@@ -129,6 +184,7 @@ body {
 .project-container {
   display: flex;
   flex-direction: row;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
   justify-content: space-evenly;
 }
 
@@ -139,6 +195,10 @@ body {
 
 .grad-video {
 
+}
+
+.project-link {
+  text-decoration: underline;
 }
 
 .project-about {
@@ -153,9 +213,9 @@ body {
 }
 
 a:link {
-  color: green;
+  color: black;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
@@ -167,7 +227,7 @@ a:visited {
 a:hover {
   color: hotpink;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
