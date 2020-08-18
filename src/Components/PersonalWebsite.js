@@ -6,6 +6,7 @@ import Footer from './NavigationFooter';
 
 
 
+
 function PersonalWebsite() {
   return (
     <div class="personal-website-container">
@@ -19,9 +20,10 @@ function PersonalWebsite() {
         </section>
         <section>
           <div class="about-me-title">A little about me</div>
-          <div class="about-me-text">Photographer turned Fullstack-Bootcamp Grad. Currently I learn towards front-end developement.
-            I enjoy designing user interfaces.  </div>
+          <div class="about-me-text">Photographer turned Fullstack-Bootcamp Grad. I currently lean towards front-end developement.
+            I enjoy the creative aspect of designing user interfaces.  </div>
         </section>
+        <div class="my-education">My Education</div>
         <img alt="my-aca-certificate" class="aca-certificate"  src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/21669789"></img>
         <div class="my-skills-title">My Skills</div>
         <div class="my-skills">
@@ -35,6 +37,7 @@ function PersonalWebsite() {
             <div class="contact-icons">
               <a href="https://www.linkedin.com/in/sarinamcolosimo/"><i class="fab fa-linkedin fa-3x"></i></a>
               <a href="https://github.com/RiinaMiichelle"><i class="fab fa-github fa-3x"></i></a>
+              <a href="https://github.com/RiinaMiichelle"><i class="far fa-envelope fa-3x"></i></a>
             </div>
         </section>
       </div>

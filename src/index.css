@@ -9,30 +9,54 @@ body {
 }
 
 .header {
-  height: 70px;
+  height: 60px;
   padding: 10px;
-  text-align: center;
   background: #ECDFE9;
-  color: white;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 
 .nav-container {
   font-size: 20px;
-  margin-right: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.nav-content {
+
+.nav-contact {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-contact a {
   margin: 10px;
-  text-decoration: none;
+}
+
+.nav-buttons  {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  transform: none;
+}
+
+.nav-link {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px #D8C0D3;
   font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
   letter-spacing: 2px;
   text-shadow: 1px 1px 1px pink;
-  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  height: 30px;
+  margin: 2.5px;
+  padding-top: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  align-items: center;
 }
 
 .content {
@@ -40,6 +64,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: white;
 }
+
+
 
 .title-section {
 
@@ -81,6 +107,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 3px 3px #D8C0D3;
 }
 
 .my-skills-title {
@@ -90,7 +117,6 @@ body {
 }
 
 .my-skills {
-  /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
   align-content: flex-start;
@@ -100,6 +126,7 @@ body {
   align-content: center;
   margin: auto;
   border: 1px solid;
+  border-radius: 5px;
   width: 60%;
   padding: 10px;
   box-shadow: 5px 5px #D8C0D3;
@@ -118,6 +145,8 @@ body {
   width: 60%;
   height: 400px;
   margin: auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px #D8C0D3;
 } 
 
 .contact-me-title {
@@ -131,6 +160,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 30px;
+}
+
+.contact-icons a {
+  padding: 20px;
+}
+
+.contact-icons a :hover {
+  transform: scale(1.3);
 }
 
 .contact-icons a {
@@ -176,6 +214,7 @@ body {
 }
 
 .happy-paws-title {
+  font-weight: bold;
   text-align: center;
   font-size: 30px;
   margin: 20px;
@@ -186,6 +225,7 @@ body {
   flex-direction: row;
   background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
   justify-content: space-evenly;
+  box-shadow: 5px 5px #D8C0D3;
 }
 
 .project-image {
@@ -198,8 +238,13 @@ body {
 }
 
 .project-link {
-  text-decoration: underline;
+  
 }
+
+.view-project {
+  
+}
+
 
 .project-about {
   font-size: 20px;
@@ -215,7 +260,7 @@ body {
 a:link {
   color: black;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:visited {
@@ -228,10 +273,38 @@ a:hover {
   color: hotpink;
   background-color: transparent;
   text-decoration: none;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 a:active {
   color: Black;
   background-color: transparent;
-  text-decoration: underline;
+}
+
+/* resume stuff */
+
+.resume-title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 35px;
+  text-align: center;
+  margin: 50px;
+}
+
+
+.resume-section {
+  
+}
+
+.resume {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+.my-education {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  margin: 50px;
+  text-align: center;
 }
