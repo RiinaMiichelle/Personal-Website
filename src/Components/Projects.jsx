@@ -25,7 +25,7 @@ function Projects() {
             </video>
           </div>
         </div>
-        <div class="view-project">You can view the hosted project<a href="https://happy-paws-ui.herokuapp.com/home" class="project-link"> here</a></div>
+        <div class="view-project">You can view my deployed project<button class="view-project-link"><a href="https://happy-paws-ui.herokuapp.com/home">here</a></button></div>
       </section>
       <Footer />
     </div>

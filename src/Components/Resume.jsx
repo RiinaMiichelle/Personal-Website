@@ -10,7 +10,7 @@ const Resume = () => {
         <Header />
         <div class="resume-title">View/Download My Resume</div>
         <section class="resume-section">
-          <div class="resume"><iframe src={MyResume} height="1000" width="800"></iframe></div>
+          <div class="resume"><iframe src={MyResume} class="resume-feild" height="1000" width="800"></iframe></div>
         </section>
         <Footer />
       </div>
