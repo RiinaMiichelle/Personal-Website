@@ -9,7 +9,7 @@ const Header = () => {
         <div class="nav-contact">
           <a href="https://www.linkedin.com/in/sarinamcolosimo/"><i class="fab fa-linkedin fa-2x"></i></a>
           <a href="https://github.com/RiinaMiichelle"><i class="fab fa-github fa-2x"></i></a>
-          <a href="https://github.com/RiinaMiichelle"><i class="far fa-envelope fa-2x"></i></a>
+          <a href="mailto:sarina.m.colosimo@gmail.com"><i class="far fa-envelope fa-2x"></i></a>
         </div>
         <div class="nav-buttons">
           <Link class="nav-link"  to="/">Home</Link>

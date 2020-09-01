@@ -20,7 +20,7 @@ function PersonalWebsite() {
         </section>
         <section>
           <div class="about-me-title">A little about me</div>
-          <div class="about-me-text">Photographer turned Fullstack-Bootcamp Grad. I currently lean towards front-end developement.
+          <div class="about-me-text">Full Stack Web Developer who leans towards front-end developement.
             I enjoy the creative aspect of designing user interfaces.  </div>
         </section>
         <div class="my-education">My Education</div>
@@ -37,7 +37,7 @@ function PersonalWebsite() {
             <div class="contact-icons">
               <a href="https://www.linkedin.com/in/sarinamcolosimo/"><i class="fab fa-linkedin fa-3x"></i></a>
               <a href="https://github.com/RiinaMiichelle"><i class="fab fa-github fa-3x"></i></a>
-              <a href="https://github.com/RiinaMiichelle"><i class="far fa-envelope fa-3x"></i></a>
+              <a href="mailto:sarina.m.colosimo@gmail.com"><i class="far fa-envelope fa-3x"></i></a>
             </div>
         </section>
       </div>
